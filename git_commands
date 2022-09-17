@@ -1,0 +1,48 @@
+cd .git
+cd git
+git
+git add .
+git add /home/eiderdoo/JupyterNotebooks
+git add readme.txt
+git add segundo.py
+git add terceiro.py
+git branch
+git branch -a
+git branch -d featureX
+git branch -d help
+git branch -d list
+git branch help
+git branch --list
+git branch list
+git checkout -b featureX
+git checkout master
+git commit -m "First draft of readme.txt file"
+git commit -m "subindo do mint"
+git commit -m "token removido"
+git config --global user.email eiderdoo@gmail.com
+git config --global user.name "EIDER DANTAS DO O"
+git config --global user.name “EIDER DANTAS DO O”
+git -d featureX
+git help
+git help status
+git init
+git merge featureX
+git push
+git push master featureX
+git push origin featureX
+git push origin master
+git push remotes/origin/master featureX
+git push -u origin master
+git remote add origin https://github.com/eiderdoo/repo_mint
+git remote add origin https://github.com/eiderdoo/repo_mint.git
+git status
+git status -v
+git -v
+history|awk '{$1="";print substr($0,2)}' | grep git
+history|awk '{$1="";print substr($0,2)}' | grep git | sort -u > git_commands
+history | grep git > git_commands
+mv python git
+sudo apt install git-all
+sudo mv git myrepo
+sudo mv python git
+vi git_commands
